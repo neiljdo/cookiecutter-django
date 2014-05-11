@@ -11,6 +11,7 @@ Features
 * For Django 1.6
 * Twitter Bootstrap_ 3
 * AngularJS_
+* nodejs virtualenvs using nodeenv_
 * Settings management via django-configurations_
 * Registration via django-allauth_
 * User avatars via django-avatar_
@@ -22,6 +23,7 @@ Features
 
 .. _Bootstrap: https://github.com/twbs/bootstrap
 .. _AngularJS: https://github.com/angular/angular.js
+.. _nodeenv: https://github.com/ekalinin/nodeenv
 .. _django-configurations: https://github.com/jezdez/django-configurations
 .. _django-allauth: https://github.com/pennersr/django-allauth
 .. _django-avatar: https://github.com/jezdez/django-avatar/
@@ -49,7 +51,7 @@ First, get cookiecutter. Trust me, it's awesome::
 
 Now run it against this repo::
 
-    $ cookiecutter https://github.com/pydanny/cookiecutter-django.git
+    $ cookiecutter https://github.com/neiljdo/cookiecutter-django.git
 
 You'll be prompted for some questions, answer them, then it will create a Django project for you.
 

@@ -33,5 +33,11 @@ django-autoslug==1.7.2
 # Useful things
 django-avatar==2.0
 
+# nodeenv for nodejs sandbox
+nodeenv==0.8.1
+
+# iPython for a better Python shell
+ipython==2.0.0
+
 
 # Your custom requirements go here
