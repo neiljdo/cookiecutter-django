@@ -126,9 +126,9 @@ class Common(Configuration):
     # Do this here because thanks to django-pylibmc-sasl and pylibmc memcacheify is painful to install on windows.
     # memcacheify is what's used in Production
     CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
-        'LOCATION': ''
+        'default': {
+            'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+            'LOCATION': ''
         }
     }
     ########## END CACHING
@@ -233,6 +233,7 @@ class Common(Configuration):
     # Select the correct user model
     AUTH_USER_MODEL = "users.User"
     LOGIN_REDIRECT_URL = "users:redirect"
+    LOGIN_URL = "account_login"
     ########## END Custom user app defaults
 
     ########## SLUGLIFIER
